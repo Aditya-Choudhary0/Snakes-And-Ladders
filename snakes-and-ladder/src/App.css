@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+#game {
+  text-align: center;
+  color: #282c34;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.active {
+  background-color: #ffff99;
+}
+
+.snake {
+  background-color: #cc6666;
+}
+
+.ladder {
+  background-color: #99cc99;
+}
+
+.player-1 {
+  border-radius: 50%;
+  background-color: #6699ff;
+}
+
+.player-2 {
+  border-radius: 50%;
+  background-color: #ff9999;
+}
+
+.player-name {
+  position: absolute;
+  top: -20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
