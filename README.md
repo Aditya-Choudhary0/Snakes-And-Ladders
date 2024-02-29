@@ -49,7 +49,7 @@ snakes = [
 - Then we have a button for rolling the dice which gives a random number between 1 and 6.
 - As soon as the roll dice button is clicked a text appears that says ***this payer has rolled this number*** and the player moves accordingly on the board.
 - And if a player wins the game an alert pops out with the message ***This player has won the game!***.
-- After clicking the ***ok button on the alert*** the game resets and we can play again.
+- After clicking the ***OK button on the alert*** the game resets and we can play again.
  ![Capture1](https://github.com/Aditya-Choudhary0/Snakes-And-Ladders/assets/113030961/44ce82c9-f137-4623-b73f-c8cabbc88e17)
 
 ***
